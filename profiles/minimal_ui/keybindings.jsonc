@@ -1,0 +1,11 @@
+[
+  // --- Vim-like cursor movement with Alt+j/k/l/; (intentionally shifted) ---
+  { "key": "alt+j", "command": "cursorLeft",  "when": "textInputFocus && !editorReadonly" },
+  { "key": "alt+k", "command": "cursorUp",    "when": "textInputFocus && !editorReadonly" },
+  { "key": "alt+l", "command": "cursorDown",  "when": "textInputFocus && !editorReadonly" },
+  { "key": "alt+;", "command": "cursorRight", "when": "textInputFocus && !editorReadonly" },
+
+  // --- Chrome-style tab switching ---
+  { "key": "ctrl+tab",       "command": "workbench.action.nextEditor" },
+  { "key": "ctrl+shift+tab", "command": "workbench.action.previousEditor" }
+]

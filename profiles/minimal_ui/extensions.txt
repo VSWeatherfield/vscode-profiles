@@ -1,0 +1,2 @@
+vira.vira-theme
+vira.vira-icons
